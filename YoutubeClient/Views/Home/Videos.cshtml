@@ -1,0 +1,21 @@
+﻿@model IEnumerable<YoutubeClient.Models.Video>
+@{
+    ViewData["Title"] = "Videos";
+}
+
+@if (Model.Count() > 0)
+{
+    @foreach (var item in Model)
+    {
+        //string linkSrc = "http://www.youtube.com/embed/";
+        //linkSrc = linkSrc + item.id;
+
+        <h3 id="test">@item.Title</h3>
+
+
+        <iframe width="420" height="315"
+                src=@item.LinkSrc>
+        </iframe>
+
+    }
+}
