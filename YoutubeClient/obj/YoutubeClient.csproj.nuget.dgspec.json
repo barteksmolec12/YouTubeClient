@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\source\\repos\\YoutubeClient\\YoutubeClient\\YoutubeClient.csproj": {}
+    "C:\\Users\\smolecb\\Desktop\\gitTest\\YouTubeClient\\YoutubeClient\\YoutubeClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\source\\repos\\YoutubeClient\\YoutubeClient\\YoutubeClient.csproj": {
+    "C:\\Users\\smolecb\\Desktop\\gitTest\\YouTubeClient\\YoutubeClient\\YoutubeClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\YoutubeClient\\YoutubeClient\\YoutubeClient.csproj",
+        "projectUniqueName": "C:\\Users\\smolecb\\Desktop\\gitTest\\YouTubeClient\\YoutubeClient\\YoutubeClient.csproj",
         "projectName": "YoutubeClient",
-        "projectPath": "C:\\Users\\Dell\\source\\repos\\YoutubeClient\\YoutubeClient\\YoutubeClient.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\source\\repos\\YoutubeClient\\YoutubeClient\\obj\\",
+        "projectPath": "C:\\Users\\smolecb\\Desktop\\gitTest\\YouTubeClient\\YoutubeClient\\YoutubeClient.csproj",
+        "packagesPath": "C:\\Users\\smolecb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\smolecb\\Desktop\\gitTest\\YouTubeClient\\YoutubeClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\smolecb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -18,12 +18,14 @@ namespace YoutubeClient.Controllers
 		public HomeController(ILogger<HomeController> logger)
 		{
 			_logger = logger;
+			
 		}
 		
 		public async Task<IActionResult> Videos(string search)
 			
 		{
-			var url= "https://www.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&key=AIzaSyA9sQE7z355rTXtc6q65BPmipW5LcFEovA";
+			//var url= "https://www.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&key=AIzaSyA9sQE7z355rTXtc6q65BPmipW5LcFEovA";
+			var url= "https://www.googleapis.com/youtube/v3/search?part=snippet&q=trial%20bike&key=AIzaSyA9sQE7z355rTXtc6q65BPmipW5LcFEovA";
 			var client = new HttpClient();
 			var response =await client.GetAsync(url);
 			IEnumerable<Video> ytVideos = Enumerable.Empty<Video>();
@@ -38,10 +40,9 @@ namespace YoutubeClient.Controllers
 
 				ytVideos = ytRepsonse.items.Select(n => new Video
 				{
-					id = n.id,
+					LinkSrc= "https://www.youtube.com/embed/"+n.id.videoId,
 					Title = n.snippet.title,
-					Description = n.snippet.description,
-					LinkSrc= "https://www.youtube.com/embed/"+n.id
+					
 
 				}
 				
